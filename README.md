@@ -4,9 +4,9 @@
         "-//Hibernate/Hibernate Configuration DTD//EN"
         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
 
-<hibernate-configuration>
-	<session-factory>
 
+<<hibernate-configuration>
+	<session-factory>
 		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/mphasisdb</property>
 		<property name="hibernate.connection.username">root</property>
